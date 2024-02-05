@@ -21,7 +21,7 @@ namespace assignment1.ProblemDomain
         public override string DisplayDetails()
         {
             string voltageDescription = (BatteryVoltage == 18) ? "Low" : "High";
-            // Implement how refrigerator details are displayed
+            // Implement how vacuum details are displayed
             return $"Vacuum Details:\nItem Number: {ItemNumber}\nBrand: {Brand}\nQuantity: {Quantity}\n" +
                    $"Wattage: {Wattage}\nColor: {Color}\nPrice: {Price:C}\nGrade: {Grade}\nBattery Voltage: {voltageDescription}";
         }

@@ -82,6 +82,7 @@ namespace assignment1
             }
         }
 
+        // Displaying the menu for the user to choose from
         static void DisplayMainMenu()
         {
             while (true)
@@ -97,6 +98,7 @@ namespace assignment1
 
                 if (int.TryParse(Console.ReadLine(), out int option))
                 {
+                    // Using switch-case for when the user chooses an appliance type and to run the specific function.
                     switch (option)
                     {
                         case 1:
@@ -126,6 +128,7 @@ namespace assignment1
             }
         }
 
+        // Used to check the first digit to bring out the appliance detail and type
         static void CheckOutAppliance()
         {
             Console.Write("Enter the item number of an appliance: ");
@@ -152,6 +155,7 @@ namespace assignment1
             }
         }
 
+        // Used to find the appliance by brand such as Tefal, Philips
         static void FindAppliancesByBrand()
         {
             Console.Write("Enter brand to search for: ");
@@ -175,6 +179,7 @@ namespace assignment1
             }
         }
 
+        // Users can pick from these appliances and can be questioned further for specific features of the appliance.
         static void DisplayAppliancesByType()
         {
             Console.WriteLine("Appliance Types");
@@ -211,6 +216,7 @@ namespace assignment1
             }
         }
 
+        // Users can choose 2,3,4 doors and find the refrigerators based on their choice. 
         static void DisplayRefrigeratorsByNumberOfDoors()
         {
             Console.WriteLine("Refrigerator Types");
@@ -252,6 +258,7 @@ namespace assignment1
             }
         }
 
+        // Users can find the vacuum that suits their needs depending on the voltage they choose.
         static void DisplayVacuumsByBatteryVoltage()
         {
             Console.WriteLine("Vacuum Battery Voltage Types");
@@ -294,6 +301,7 @@ namespace assignment1
             }
         }
 
+        // Users can find the microwave based on if its Kitchen or Work Site
         static void DisplayMicrowavesByRoomType()
         {
             Console.WriteLine("Microwave Room Types");
@@ -329,6 +337,7 @@ namespace assignment1
             }
         }
 
+        // Users can find the Dishwasher by the SoundRating as it has been modified to get the abbreviation but output the full rating description.
         static void DisplayDishwashersBySoundRating()
         {
             Console.WriteLine("Dishwasher Sound Ratings");
@@ -378,6 +387,7 @@ namespace assignment1
             }
         }
 
+        // This method writes each appliance's details to the file in the proper format. 
         static void SaveAndExit()
         {
             try

@@ -23,6 +23,7 @@ namespace assignment1.ProblemDomain
         { 
             string soundRatingName;
 
+            // Ensuring that the abbreviations are switched to the full name when outputted
             switch (SoundRating.ToUpper())
             {
                 case "QT":
