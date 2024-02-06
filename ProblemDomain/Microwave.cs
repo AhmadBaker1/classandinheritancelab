@@ -21,9 +21,23 @@ namespace assignment1.ProblemDomain
 
         public override string DisplayDetails()
         {
+            string roomTypePlace;
+
+            switch (RoomType.ToUpper())
+            {
+                case "W":
+                    roomTypePlace = "Work Site";
+                    break;
+                case "K":
+                    roomTypePlace = "Kitchen";
+                    break;
+                default:
+                    roomTypePlace = RoomType; // Display as is if not recognized
+                    break;
+            }
             return $"Microwave Details:\nItem Number: {ItemNumber}\nBrand: {Brand}\nQuantity: {Quantity}\n" +
                    $"Wattage: {Wattage}\nColor: {Color}\nPrice: {Price:C}\nCapacity: {Capacity}\n" +
-                   $"Room Type: {RoomType}";
+                   $"Room Type: {roomTypePlace}";
         }
     }
 }

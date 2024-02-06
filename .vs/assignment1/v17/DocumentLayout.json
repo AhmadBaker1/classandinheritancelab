@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\problemdomain\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:problemdomain\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\problemdomain\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:problemdomain\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\problemdomain\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:problemdomain\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\problemdomain\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:problemdomain\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA79E3F-86C6-411E-BE04-4E9737836C2D}|assignment1.csproj|c:\\users\\ahmad baker\\onedrive\\desktop\\cprg211g\\labs\\assignment1\\problemdomain\\refrigerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "ProblemDomain\\Dishwasher.cs",
               "ToolTip": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\ProblemDomain\\Dishwasher.cs",
               "RelativeToolTip": "ProblemDomain\\Dishwasher.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABbAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwBoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-05T08:24:05.543Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ProblemDomain\\Refrigerator.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAA4wCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-05T08:23:38.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-05T08:23:38.563Z"
             },
             {
               "$type": "Document",
@@ -72,25 +71,24 @@
               "RelativeToolTip": "Appliance.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA0wB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-05T07:42:07.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-05T07:42:07.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Microwave.cs",
               "DocumentMoniker": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\ProblemDomain\\Microwave.cs",
               "RelativeDocumentMoniker": "ProblemDomain\\Microwave.cs",
               "ToolTip": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\ProblemDomain\\Microwave.cs",
               "RelativeToolTip": "ProblemDomain\\Microwave.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-04T20:48:46.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -103,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Vacuum.cs",
               "DocumentMoniker": "C:\\Users\\Ahmad Baker\\OneDrive\\Desktop\\CPRG211G\\labs\\assignment1\\ProblemDomain\\Vacuum.cs",
               "RelativeDocumentMoniker": "ProblemDomain\\Vacuum.cs",
